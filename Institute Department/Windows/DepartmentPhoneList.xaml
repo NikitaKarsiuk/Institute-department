@@ -1,0 +1,24 @@
+﻿<Window x:Class="Institute_Department.Windows.DepartmentPhoneList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Institute_Department.Windows"
+        mc:Ignorable="d"
+        Height="200" Width="350"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid Margin="0,0,-1,0" Height="177" VerticalAlignment="Top">
+            <DataGrid Name="phoneDataGrid" Margin="10,10,10,64" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                    <DataGridTextColumn Header="Телефон" Width="301" Binding="{Binding Phone}" />
+
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button x:Name="LessonAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="20,122,230,25"  Width="Auto" Click="LessonAddButton_Click"  />
+            <Button x:Name="LessonDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="110,122,130,25"  Width="Auto" Click="LessonDeleteButton_Click"  />
+            <Button x:Name="LessonChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="210,122,30,0"  VerticalAlignment="Top" Width="Auto" Click="LessonChangeButton_Click"  />
+        </Grid>
+    </Grid>
+</Window>

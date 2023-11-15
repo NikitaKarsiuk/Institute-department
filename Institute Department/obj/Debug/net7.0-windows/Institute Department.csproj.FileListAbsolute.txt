@@ -1,0 +1,187 @@
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.AssemblyReference.cache
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department_MarkupCompile.cache
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department_MarkupCompile.lref
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.exe
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.deps.json
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.runtimeconfig.json
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.pdb
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\EntityFramework.SqlServer.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\EntityFramework.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.g.resources
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.AssemblyInfoInputs.cache
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.AssemblyInfo.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.CoreCompileInputs.cache
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.CopyComplete
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\refint\Institute Department.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.pdb
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.genruntimeconfig.cache
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\ref\Institute Department.dll
+C:\Users\akkay\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.dll.config
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\TabControl.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\App.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\Grid.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\DataGrid.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\Button.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectWindow.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectWindow.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Speciality.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReport.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Speciality.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReport.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Department.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Department.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\AdditionalTabControl.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhone.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Faculty.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformation.g.cs
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhone.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Faculty.baml
+C:\Users\akkay\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformation.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.exe
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.dll.config
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.deps.json
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.runtimeconfig.json
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.pdb
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\EntityFramework.SqlServer.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\EntityFramework.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.AssemblyReference.cache
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\AdditionalTabControl.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\Button.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\DataGrid.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\Grid.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\TabControl.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Department.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhone.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Faculty.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Speciality.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformation.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReport.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department_MarkupCompile.cache
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department_MarkupCompile.lref
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\App.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Department.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhone.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Faculty.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Speciality.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformation.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReport.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.g.resources
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.AssemblyInfoInputs.cache
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.AssemblyInfo.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.CoreCompileInputs.cache
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.CopyComplete
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\refint\Institute Department.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.pdb
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.genruntimeconfig.cache
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\ref\Institute Department.dll
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhoneList.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhoneList.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReportList.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReportList.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectList.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectList.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityHoursList.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityHoursList.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityLoad.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Subject.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityLoad.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Subject.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentExams.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentExams.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationMinMax.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationMinMax.baml
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationTypeOfReport.g.cs
+C:\Users\moffa\source\repos\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationTypeOfReport.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.exe
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.dll.config
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.deps.json
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.runtimeconfig.json
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\Institute Department.pdb
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\EntityFramework.SqlServer.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\EntityFramework.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.AssemblyReference.cache
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\AdditionalTabControl.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\Button.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\DataGrid.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\Grid.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Style\TabControl.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Department.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentExams.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhone.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhoneList.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Faculty.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Speciality.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityHoursList.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityLoad.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Subject.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformation.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationMinMax.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationTypeOfReport.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectList.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReport.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReportList.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department_MarkupCompile.cache
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department_MarkupCompile.lref
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\App.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Department.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentExams.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhone.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\DepartmentPhoneList.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Faculty.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Speciality.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityHoursList.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SpecialityLoad.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\Subject.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformation.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationMinMax.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectInformationTypeOfReport.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectList.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReport.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Windows\SubjectTypeOfReportList.baml
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.g.resources
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.AssemblyInfoInputs.cache
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.AssemblyInfo.cs
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.CoreCompileInputs.cache
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.csproj.CopyComplete
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\refint\Institute Department.dll
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.pdb
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\Institute Department.genruntimeconfig.cache
+C:\Users\moffa\Desktop\for git\Institute Department\Institute Department\obj\Debug\net7.0-windows\ref\Institute Department.dll

@@ -1,0 +1,177 @@
+﻿<Window x:Class="Institute_Department.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Institute_Department"
+        xmlns:converters="clr-namespace:Institute_Department.Converters"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="" Height="550" Width="1000"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <converters:DepartmentConverter x:Key="DepartmentConverter" />
+        <converters:FormOfStudyConverter x:Key="FormOfStudyConverter" />
+        <converters:FacultyConverter x:Key="FacultyConverter" />
+        <converters:SpecialityConverter x:Key="SpecialityConverter" />
+        <converters:SubjectConverter x:Key="SubjectConverter" />
+        <converters:TermConverter x:Key="TermConverter" />
+    </Window.Resources>
+    <Grid Style="{StaticResource Grid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TabControl Style="{StaticResource TabControl}">
+            <TabItem Header="Специальность" x:Name="SpecialityTabItem" MouseUp="FillTabItem_MouseUp" Style="{StaticResource AdditionalTabItem}">
+                <Grid Style="{StaticResource Grid}">
+                    <TabControl Style="{StaticResource AdditionalTabControl}">
+                        <TabItem Header="Информация" x:Name="SpecialityInformationTabItem" Style="{StaticResource AdditionalTabItem}"  MouseUp="FillTabItem_MouseUp" Margin="0,-4,0,0">
+                            <Grid Margin="0" Height="502" Width="867">
+                                <DataGrid Name="specialityDataGrid" Margin="10,10,30,70" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                                        <DataGridTextColumn Header="Код" Binding="{Binding Code}" />
+                                        <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                        <DataGridTextColumn Header="Кваликация" Binding="{Binding Qualification}" />
+                                        <DataGridTextColumn Header="Кафедра" Binding="{Binding DepartmentId, Converter={StaticResource DepartmentConverter}, Mode=TwoWay}" />
+                                        <DataGridTextColumn Header="Форма обучения" Binding="{Binding FormOfStudyId, Converter={StaticResource FormOfStudyConverter}, Mode=TwoWay}" />
+                                        <DataGridTemplateColumn Header="Дисциплины">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Click="OpenSubjectListWindow_Click">Дисциплины</Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                        <DataGridTemplateColumn Header="Часы занятий">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Click="OpenSpecialityHoursListWindow_Click">Часы занятий</Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                        <DataGridTemplateColumn Header="Нагрузка">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Click="OpenSpecialityLoadWindow_Click">Нагрузка</Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                         </DataGrid.Columns>
+                                    
+                                </DataGrid>
+                                <Button x:Name="SpecialityAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,409, 757,0" Click="SpecialityAddButton_Click" />
+                                <Button x:Name="SpecialityDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="110,409, 637,0" Click="SpecialityDeleteButton_Click"/>
+                                <Button x:Name="SpecialityChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="200,409, 507,0" Click="SpecialityChangeButton_Click" />
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Кафедра" x:Name="DepartmentTabItem" Style="{StaticResource AdditionalTabItem}" MouseUp="FillTabItem_MouseUp">
+                <Grid Style="{StaticResource Grid}">
+                    <TabControl Style="{StaticResource AdditionalTabControl}">
+                        <TabItem Header="Информация" x:Name="DepartmentInformationTabItem" Style="{StaticResource AdditionalTabItem}" MouseUp="FillTabItem_MouseUp" Margin="0,-4,0,0">
+                            <Grid Margin="0" Height="502" Width="867">
+                                <DataGrid Name="departmentInformationDataGrid" Margin="10,10,30,70" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                                        <DataGridTextColumn Header="Кафедра" Binding="{Binding Name}" />
+                                        <DataGridTextColumn Header="Факультет" Binding="{Binding FacultyId, Converter={StaticResource FacultyConverter}, Mode=TwoWay}"/>
+                                        <DataGridTemplateColumn Header="Список телефонов">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Click="OpenDepartmentPhoneListWindow_Click">Телефон </Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                        <DataGridTemplateColumn Header="Список зачетов">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Click="OpenFacultyExamsWindow_Click">Зачеты</Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <Button x:Name="DepartmentAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,409, 757,0" Click="DepartmentAddButton_Click" />
+                                <Button x:Name="DepartmentDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="110,409, 637,0" Click="DepartmentDeleteButton_Click"/>
+                                <Button x:Name="DepartmentChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="200,409, 507,0" Click="DepartmentChangeButton_Click" />
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Факультет" x:Name="FacultyTabItem" Style="{StaticResource AdditionalTabItem}" Margin="0,-4,0,0" MouseUp="FillTabItem_MouseUp">
+                            <Grid Margin="0" Height="502" Width="867">
+                                <DataGrid Name="facultyDataGrid" Margin="10,10,30,70" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                                        <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                        <DataGridTemplateColumn Header="Дисциплины">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Click="OpenFacultySubjectListWindow_Click">Дисциплины</Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                    
+                                </DataGrid>
+                                <Button x:Name="FacultyAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,409, 757,0" Click="FacultyAddButton_Click" />
+                                <Button x:Name="FacultyDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="110,409, 637,0" Click="FacultyDeleteButton_Click"/>
+                                <Button x:Name="FacultyChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="200,409, 507,0" Click="FacultyChangeButton_Click" />
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Дисциплина" Name="SubjectTabItem" MouseUp="FillTabItem_MouseUp" Style="{StaticResource AdditionalTabItem}">
+                <Grid Style="{StaticResource Grid}">
+                    <TabControl Style="{StaticResource AdditionalTabControl}">
+                        <TabItem Header="Информация" x:Name="SubjectInformationTabItem" MouseUp="FillTabItem_MouseUp" Style="{StaticResource AdditionalTabItem}" Margin="0,-4,0,0">
+                            <Grid Margin="0" Height="502" Width="867">
+                                <DataGrid Name="subjectInformationDataGrid" Margin="10,10,30,70" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                                        <DataGridTextColumn Header="Специальность" Binding="{Binding SpecialityId, Converter={StaticResource SpecialityConverter}, Mode=TwoWay}" />
+                                        <DataGridTextColumn Header="Дисциплина" Binding="{Binding SubjectId, Converter={StaticResource SubjectConverter}, Mode=TwoWay}" />
+                                        <DataGridTextColumn Header="Семестр" Binding="{Binding TermId, Converter={StaticResource TermConverter}, Mode=TwoWay}" />
+                                        <DataGridTextColumn Header="Кол-во лек-ых часов" Binding="{Binding LectureHours}" />
+                                        <DataGridTextColumn Header="Кол-во лаб-ых часов" Binding="{Binding LaboratoryHours}" />
+                                        <DataGridTextColumn Header="Кол-во прак-их часов" Binding="{Binding PracticalHours}" />
+                                        <DataGridTemplateColumn Header="Вид зачетов">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Click="OpenTypeOfReportListWindow_Click">Зачет</Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <Button x:Name="SubjectInformationAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,409, 757,0" Click="SubjectInformationAddButton_Click" />
+                                <Button x:Name="SubjectInformationDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="110,409, 637,0" Click="SubjectInformationDeleteButton_Click"/>
+                                <Button x:Name="SubjectInformationChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="200,409, 507,0" Click="SubjectInformationChangeButton_Click" />
+                                <Button x:Name="SubjectInformationMinMaxButton" Content="Занятия" Style="{StaticResource Button}" Margin="735,409, 28,0" Click="SubjectInformationMinMaxButton_Click" />
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Список дисциплин" x:Name="SubjectListTabItem" MouseUp="FillTabItem_MouseUp" Style="{StaticResource AdditionalTabItem}" Margin="0,-4,0,0">
+                            <Grid Margin="0" Height="502" Width="867">
+                                <DataGrid Name="subjectDataGrid" Margin="10,10,30,70" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                                        <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <Button x:Name="SubjectAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,409, 757,0" Click="SubjectAddButton_Click" />
+                                <Button x:Name="SubjectDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="110,409, 637,0" Click="SubjectDeleteButton_Click"/>
+                                <Button x:Name="SubjectChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="200,409, 507,0" Click="SubjectChangeButton_Click" />
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        
+    </Grid>
+</Window>

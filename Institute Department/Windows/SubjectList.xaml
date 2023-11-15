@@ -1,0 +1,26 @@
+﻿<Window x:Class="Institute_Department.Windows.SubjectList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Institute_Department.Windows"
+        xmlns:converters="clr-namespace:Institute_Department.Converters"
+        mc:Ignorable="d"
+        Title="SubjectList" Height="180" Width="340"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <converters:SubjectConverter x:Key="SubjectConverter" />
+        <converters:TermConverter x:Key="TermConverter" />
+    </Window.Resources>
+    <Grid>
+        <Grid Margin="0,0,-1,0" Height="150" VerticalAlignment="Top">
+            <DataGrid Name="subjectListDataGrid" Margin="10,10,10,20" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                    <DataGridTextColumn Header="Дисцплина" Binding="{Binding SubjectId, Converter={StaticResource SubjectConverter}, Mode=TwoWay}" />
+                    <DataGridTextColumn Header="Семестр" Binding="{Binding TermId, Converter={StaticResource TermConverter}, Mode=TwoWay}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Institute_Department.Windows.SubjectInformationTypeOfReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Institute_Department.Windows"
+        xmlns:converters="clr-namespace:Institute_Department.Converters"
+        mc:Ignorable="d"
+        Height="145" Width="310"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <converters:TypeOfReportConverter x:Key="TypeOfReportConverter" />
+    </Window.Resources>
+    <Grid>
+        <Grid Height="97" VerticalAlignment="Top">
+            <DataGrid Name="subjectTypeOfReportDataGrid" Margin="10,10,30,0" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                    <DataGridTextColumn Header="Вид зачета" Binding="{Binding TypeOfReportId, Converter={StaticResource TypeOfReportConverter}, Mode=TwoWay}" />
+                </DataGrid.Columns>
+            </DataGrid>
+            
+        </Grid>
+    </Grid>
+</Window>

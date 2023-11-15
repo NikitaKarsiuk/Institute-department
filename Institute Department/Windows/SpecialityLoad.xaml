@@ -1,0 +1,34 @@
+﻿<Window x:Class="Institute_Department.Windows.SpecialityLoad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Institute_Department.Windows"
+        xmlns:converters="clr-namespace:Institute_Department.Converters"
+        mc:Ignorable="d"
+        Title="SpecialityLoad" Height="220" Width="800"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <converters:SubjectConverter x:Key="SubjectConverter" />
+        <converters:TermConverter x:Key="TermConverter" />
+    </Window.Resources>
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+            <Label Margin="10,0,0,0">Семестр</Label>
+            <ComboBox x:Name="TermComboBox" SelectionChanged="ComboBox_SelectionChanged" DisplayMemberPath="Part" Width="100" Height="20" Margin="10,0,0,145">
+            </ComboBox>
+        </StackPanel>
+        <Grid Margin="0,30,0,0" Height="150" VerticalAlignment="Top">
+            <DataGrid Name="specialityDataGrid" Margin="10,10,20,20" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Visibility="Hidden" />
+                    <DataGridTextColumn Header="Дисцплина" Binding="{Binding SubjectId, Converter={StaticResource SubjectConverter}, Mode=TwoWay}" />
+                    <DataGridTextColumn Header="Семестр" Binding="{Binding TermId, Converter={StaticResource TermConverter}, Mode=TwoWay}" />
+                    <DataGridTextColumn Header="Кол-во лек-ых часов" Binding="{Binding LectureHours}" />
+                    <DataGridTextColumn Header="Кол-во лаб-ых часов" Binding="{Binding LaboratoryHours}" />
+                    <DataGridTextColumn Header="Кол-во прак-их часов" Binding="{Binding PracticalHours}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>

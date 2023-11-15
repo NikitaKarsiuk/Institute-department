@@ -1,0 +1,37 @@
+﻿<Window x:Class="Institute_Department.Windows.Speciality"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Institute_Department.Windows"
+        mc:Ignorable="d"
+        Title="" Height="265" Width="340"
+        ResizeMode="NoResize">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
+                <Label>Код</Label>
+                <TextBox x:Name="CodeTextBox" Margin="82, 0, -282, 0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
+                <Label>Навазние</Label>
+                <TextBox x:Name="NameTextBox" Margin="50, 0, -250, 0"/>
+            </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
+            <Label>Квалификация</Label>
+            <TextBox x:Name="QualificationeTextBox" Margin="23, 0, -223, 0"/>
+        </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label>Кафедра</Label>
+                <ComboBox x:Name="DepartmentComboBox" DisplayMemberPath="Name" Width="200" Margin="56,0,0,0">
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label>Форма обучения</Label>
+                <ComboBox x:Name="FormOfStudyComboBox" DisplayMemberPath="Name" Width="200" Margin="10,0,0,0">
+                </ComboBox>
+            </StackPanel>
+            <Button x:Name="SaveButton" Style="{StaticResource Button}" Content="Сохранить"  Margin="0,10,0,0" Click="SaveButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
